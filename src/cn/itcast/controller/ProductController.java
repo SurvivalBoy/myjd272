@@ -26,6 +26,8 @@ public class ProductController {
 		
 		System.out.println("我是B程序员，我现在之际提交代码了，注意！我没有更新");
 		System.out.println("A程序员继续开发代码，现在要提交，请大家注意！B程序员忘记了更新,直接开发，提交推送");
+		
+		System.out.println("此时我是在一个新的分支上写代码");
 		return "git";
 	}
 	
