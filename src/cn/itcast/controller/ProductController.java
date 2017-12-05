@@ -15,6 +15,16 @@ public class ProductController {
 	@Autowired
 	private ProductsService productsService;
 	
+	/**
+	 *测试代码 
+	 */
+	@RequestMapping("git")
+	public String showGit(){
+		System.out.println("这是A程序员写的一段测试代码");
+		
+		return "git";
+	}
+	
 	@RequestMapping("list")
 	public String list(String queryString,
 					String catalog_name,
