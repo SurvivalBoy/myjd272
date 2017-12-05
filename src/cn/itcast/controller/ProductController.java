@@ -21,7 +21,7 @@ public class ProductController {
 	@RequestMapping("git")
 	public String showGit(){
 		System.out.println("这是A程序员写的一段测试代码");
-		
+		System.out.println("这是B程序员写的一端测试代码，大家请注意查收");
 		return "git";
 	}
 	
