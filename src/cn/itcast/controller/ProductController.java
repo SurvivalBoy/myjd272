@@ -22,6 +22,9 @@ public class ProductController {
 	public String showGit(){
 		System.out.println("这是A程序员写的一段测试代码");
 		System.out.println("这是B程序员写的一端测试代码，大家请注意查收");
+		
+		
+		System.out.println("我是B程序员，我现在之际提交代码了，注意！我没有更新");
 		return "git";
 	}
 	
